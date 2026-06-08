@@ -1,0 +1,32 @@
+
+.brands-bar {
+  background: var(--dark2);
+  border-top: 1px solid var(--border); 
+  border-bottom: 1px solid var(--border);
+  padding: 24px 5vw;
+  display: flex; align-items: center; justify-content: center; gap: 12px; flex-wrap: wrap;
+}
+
+.brand-label { 
+  color: var(--gray); 
+  font-size: 0.8rem; 
+  letter-spacing: 3px; 
+  text-transform: uppercase; 
+  margin-right: 20px; 
+}
+
+.brand-chip {
+  background: rgba(245,166,35,0.08); 
+  border: 1px solid rgba(245,166,35,0.22);
+  color: var(--gold-light); 
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1rem; letter-spacing: 2px;
+  padding: 8px 20px; border-radius: 5px;
+  transition: background .2s;
+}
+
+.brand-chip:hover { 
+  background: rgba(245,166,35,0.18); 
+}
+
+

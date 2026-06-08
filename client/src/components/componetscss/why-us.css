@@ -1,0 +1,44 @@
+
+#why { 
+  background: var(--dark); 
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px 80px;
+  margin-top: 52px;
+  align-items: start;
+}
+
+.why-item { 
+  display: flex; 
+  gap: 20px; 
+  align-items: flex-start; 
+}
+
+.why-num {
+  font-family: 'Bebas Neue', sans-serif; 
+  font-size: 3.2rem; 
+  color: var(--gold);
+  opacity: 0.22; 
+  line-height: 1; 
+  min-width: 56px;
+}
+
+.why-title { 
+  font-family: 'Bebas Neue', sans-serif; 
+  font-size: 1.4rem; 
+  letter-spacing: 1px; 
+  margin-bottom: 8px; 
+  
+}
+
+.why-text { 
+  color: var(--gray); 
+  font-size: 0.95rem; 
+  font-family: 'Inter', sans-serif; 
+  font-weight: 300; 
+  line-height: 1.7; 
+}
+

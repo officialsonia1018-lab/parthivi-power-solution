@@ -1,0 +1,147 @@
+
+#contact { 
+  background: var(--dark2); 
+}
+
+.contact-icon-small {
+  font-size: 0.9rem;
+  color: var(--gold); 
+  vertical-align: middle;
+  margin-right: 8px; 
+  position: relative;
+  top: -1px; 
+}
+
+
+.contact-block-label {
+  display: flex;
+  align-items: center;
+  color: var(--gold);
+  font-size: 0.78rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+
+.submit-btn-icon {
+  font-size: 1rem;
+  vertical-align: middle;
+  margin-right: 8px;
+  transition: transform 0.3s ease;
+}
+
+
+.form-submit:hover .submit-btn-icon {
+  transform: translate(2px, -2px); 
+}
+
+.contact-wrap {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 60px; margin-top: 52px; align-items: start;
+}
+
+.contact-block { 
+  margin-bottom: 28px; 
+}
+
+.contact-block-label { 
+  color: var(--gold); 
+  font-size: 0.78rem; 
+  letter-spacing: 3px; 
+  text-transform: uppercase; 
+  margin-bottom: 6px; 
+}
+
+.contact-block-value { 
+  font-size: 1.15rem; 
+  font-family: 'Inter', sans-serif; 
+}
+
+.contact-block-value a { 
+  color: var(--white); 
+  text-decoration: none; 
+  transition: color .2s; 
+}
+
+.contact-block-value a:hover { 
+  color: var(--gold); 
+}
+
+.contact-form { 
+  background: var(--card-bg); 
+  border: 1px solid var(--border); 
+  border-radius: 14px; 
+  padding: 36px; 
+}
+
+.form-row { 
+  margin-bottom: 20px; 
+}
+
+.form-label { 
+  display: block; 
+  color: var(--gray); 
+  font-size: 0.82rem; 
+  letter-spacing: 2px; 
+  text-transform: uppercase; 
+  margin-bottom: 8px; 
+}
+
+.form-input, .form-select, .form-textarea {
+  width: 100%; background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: var(--white); font-family: 'Inter', sans-serif; font-size: 0.98rem;
+  padding: 12px 16px; border-radius: 8px;
+  outline: none; transition: border-color .2s, background .2s;
+}
+
+.form-input:focus, .form-select:focus, .form-textarea:focus {
+  border-color: var(--gold); background: rgba(245,166,35,0.06);
+}
+
+.form-textarea { 
+  resize: vertical; 
+  min-height: 110px; 
+}
+
+.form-select option { 
+  background: var(--dark2); 
+}
+
+.form-submit {
+  width: 100%; background: linear-gradient(90deg, var(--gold), var(--red));
+  color: #000; font-family: 'Rajdhani', sans-serif; font-weight: 700;
+  border: none; padding: 14px; border-radius: 8px; font-size: 1.1rem;
+  letter-spacing: 2px; text-transform: uppercase; cursor: pointer;
+  box-shadow: 0 4px 24px rgba(245,166,35,0.3);
+  transition: transform .2s, box-shadow .2s;
+}
+
+.form-submit:hover { 
+  transform: translateY(-2px); 
+  box-shadow: 0 8px 34px rgba(245,166,35,0.45); 
+}
+
+.map-box {
+  background: var(--card-bg); border: 1px solid var(--border);
+  border-radius: 14px; height: 220px; margin-top: 28px;
+  display: flex; align-items: center; justify-content: center;
+  flex-direction: column; gap: 10px;
+  font-family: 'Inter', sans-serif;
+}
+
+.map-box .map-pin { 
+  font-size: 40px; 
+}
+
+.map-box p { 
+  color: var(--gray); 
+  font-size: 0.95rem; 
+  text-align: center; 
+}
+
+.map-box strong { 
+  color: var(--gold); 
+}
+
+

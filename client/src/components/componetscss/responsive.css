@@ -1,0 +1,176 @@
+/* TABLETS & SMALL LAPTOPS (Max-width: 1024px) */
+@media (max-width: 1024px) {
+  .hero-title {
+    font-size: clamp(3.2rem, 8vw, 5.5rem);
+  }
+  .why-grid {
+    gap: 40px;
+  }
+}
+
+/* LARGE TABLETS & LANDSCAPE PHONES (Max-width: 900px) */
+@media (max-width: 900px) {
+  section { 
+    padding: 70px 5vw; 
+  }
+  
+  
+  .nav-links { 
+    display: none; 
+  }
+  
+  
+  .why-grid { 
+    grid-template-columns: 1fr; 
+    gap: 36px; 
+  }
+  
+ 
+  .showcase-grid { 
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: auto; 
+  }
+  
+  .showcase-cell {
+    min-height: 220px;
+  }
+  
+  .showcase-cell:first-child { 
+    grid-row: auto; 
+  }
+}
+
+/*  SMALL TABLETS & PORTRAIT PHONES (Max-width: 850px) */
+@media (max-width: 850px) {
+  
+  .contact-wrap { 
+    grid-template-columns: 1fr; 
+    gap: 40px;
+  }
+  
+  .map-box {
+    margin-top: 16px;
+  }
+}
+
+/* MOBILE SCREENS (Max-width: 600px) */
+@media (max-width: 600px) {
+  section { 
+    padding: 60px 5vw; 
+  }
+  
+ 
+  .section-tag {
+    font-size: 0.72rem;
+    padding: 4px 12px;
+  }
+  
+  .section-title {
+    font-size: 2.2rem;
+  }
+  
+  .section-desc {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  
+  .hero {
+    padding-top: 80px;
+  }
+  
+  .hero-badge {
+    font-size: 0.72rem;
+    letter-spacing: 2px;
+    padding: 4px 14px;
+  }
+  
+  .hero-title {
+    font-size: 3.2rem;
+  }
+  
+  .hero-title .line3 {
+    font-size: 45%;
+    letter-spacing: 4px;
+  }
+  
+  .hero-sub {
+    font-size: 1.02rem;
+    line-height: 1.6;
+    margin-bottom: 28px;
+  }
+  
+  .hero-btns {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+  
+  .btn-primary, .btn-outline {
+    width: 100%; 
+    padding: 14px 20px;
+  }
+
+ 
+  .hero-stats {
+    gap: 24px 16px;
+    margin-top: 40px;
+  }
+  
+  .stat {
+    min-width: 40%; 
+  }
+  
+  .stat-num {
+    font-size: 2.2rem;
+  }
+
+  
+  .products-grid {
+    grid-template-columns: 1fr; 
+    gap: 20px;
+  }
+
+  
+  .contact-form {
+    padding: 24px 20px;
+  }
+
+  
+  .footer-top { 
+    grid-template-columns: 1fr;
+    gap: 28px; 
+    text-align: center;
+  }
+  
+  .footer-brand p {
+    margin: 10px auto 0;
+  }
+  
+  .footer-col ul li {
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    padding-top: 18px;
+  }
+
+  
+  .floating-call {
+    bottom: 20px; 
+    right: 20px; 
+    width: 52px; 
+    height: 52px; 
+    font-size: 20px; 
+  }
+}
+
+/*  VERY SMALL PHONES (Max-width: 360px) */
+@media (max-width: 360px) {
+  .hero-title {
+    font-size: 2.8rem;
+  }
+  .stat {
+    min-width: 100%; 
+  }
+}
