@@ -35,37 +35,37 @@ exports.createEnquiry = async (
         email,
       });
 
-    await transporter.sendMail({
-      from: process.env.EMAIL_USER,
+    // await transporter.sendMail({
+    //   from: process.env.EMAIL_USER,
 
-      to: process.env.EMAIL_USER,
+    //   to: process.env.EMAIL_USER,
 
-      subject: `New Lead from ${name}`,
+    //   subject: `New Lead from ${name}`,
 
-      html: `
-        <h2>New Enquiry</h2>
+    //   html: `
+    //     <h2>New Enquiry</h2>
 
-        <p><strong>Name:</strong> ${name}</p>
+    //     <p><strong>Name:</strong> ${name}</p>
 
-        <p><strong>Phone:</strong> ${phone}</p>
+    //     <p><strong>Phone:</strong> ${phone}</p>
 
-        <p><strong>Product:</strong> ${product}</p>
+    //     <p><strong>Product:</strong> ${product}</p>
 
-        <p><strong>Message:</strong> ${message}</p>
-      `,
-    });
+    //     <p><strong>Message:</strong> ${message}</p>
+    //   `,
+    // });
 
-     await transporter.sendMail({
-      from: process.env.EMAIL_USER,
-      to: email,
-      subject: "Thank You For Contacting Us",
+    //  await transporter.sendMail({
+    //   from: process.env.EMAIL_USER,
+    //   to: email,
+    //   subject: "Thank You For Contacting Us",
 
-      html: `
-        <h2>Thank You ${name}</h2>
-        <p>We have received your enquiry regarding <b>${product}</b>.</p>
-        <p>Our team will contact you shortly.</p>
-      `
-    });
+    //   html: `
+    //     <h2>Thank You ${name}</h2>
+    //     <p>We have received your enquiry regarding <b>${product}</b>.</p>
+    //     <p>Our team will contact you shortly.</p>
+    //   `
+    // });
 
     res.status(201).json({
       success: true,
@@ -74,13 +74,10 @@ exports.createEnquiry = async (
       enquiry,
     });
   } catch (error) {
-  console.log("EMAIL ERROR:", error);
-
-  res.status(500).json({
-    success: false,
-    message: error.message,
-  });
-
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
   }
 };
 
