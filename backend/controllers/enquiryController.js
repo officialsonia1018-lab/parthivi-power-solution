@@ -74,10 +74,13 @@ exports.createEnquiry = async (
       enquiry,
     });
   } catch (error) {
-    res.status(500).json({
-      success: false,
-      message: error.message,
-    });
+  console.log("EMAIL ERROR:", error);
+
+  res.status(500).json({
+    success: false,
+    message: error.message,
+  });
+
   }
 };
 
