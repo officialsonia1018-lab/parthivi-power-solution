@@ -29,7 +29,7 @@ function Contact() {
       alert(`Thank you ${formData.name}! Your enquiry has been sent successfully. Anshul Kamboj will contact you shortly.`);
       
       
-      setFormData({ name: '', phone: '', product: '', message: '' });
+      setFormData({ name: '', phone: '', product: '', message: '', email: ''});
     } else {
       // Agar server se koi error aaye
       alert(result.message || "Something went wrong. Please try again.");
