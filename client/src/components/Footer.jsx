@@ -28,6 +28,7 @@ function Footer() {
             <li><a href="#products">Servo Stabilizers</a></li>
             <li><a href="#products">Transformers</a></li>
             <li><a href="#products">Electric Panels</a></li>
+             <li><a href="#products">Switchgear</a></li>
           </ul>
         </div>
 
@@ -36,17 +37,17 @@ function Footer() {
           <h4>Connect With Us</h4>
           <ul>
             <li>
-              <a href="https://instagram.com/aapka_handle" target="_blank" rel="noreferrer">
+              <a href="https://www.instagram.com/parthivi_power_solution?igsh=YjByM2Fpcm94dTZw&utm_source=qr" target="_blank" rel="noreferrer">
                 <FaInstagram className="icon-style insta-icon" /> Instagram
               </a>
             </li>
             <li>
-              <a href="https://youtube.com/aapka_channel" target="_blank" rel="noreferrer">
+              <a href="https://youtube.com/@parthivipowersolution?si=O6yAmfqltK3wYrTo" target="_blank" rel="noreferrer">
                <FaYoutube className="icon-style yt-icon" /> YouTube
               </a>
             </li>
             <li>
-              <a href="https://facebook.com/aapka_page" target="_blank" rel="noreferrer">
+              <a href="https://www.facebook.com/share/1Kf5CkP3NA/?mibextid=wwXIfr" target="_blank" rel="noreferrer">
                <FaFacebookF className="icon-style fb-icon" /> Facebook
               </a>
             </li>
@@ -57,18 +58,18 @@ function Footer() {
         <div className="footer-col contact-info-col">
           <h4>Contact Info</h4>
           <ul>
-            <li><FaMapMarkerAlt className="icon-style contact-icon" /> Yamunanagar, Haryana</li>
+            <li><FaMapMarkerAlt className="icon-style contact-icon" /> Behind SBI Bank, Buria Chowk, Jagadhri, Yamuna Nagar (HR)</li>
             <li>
               <FaPhoneAlt className="icon-style contact-icon" /> <a href="tel:8222015806">+91 82220-15806</a>
             </li>
             <li>
-              <FaEnvelope className="icon-style contact-icon" /> <a href="mailto:info@parthivipower.com">info@parthivipower.com</a>
+              <FaEnvelope className="icon-style contact-icon" /> <a href="mailto:parthivipowersolution@gmail.com">parthivipowersolution@gmail.com.com</a>
             </li>
           </ul>
         </div>
       </div>
       
-      {/* Footer Bottom (Aapka center aligned copyright text) */}
+      {/* Footer Bottom */}
       <div className="footer-bottom">
         <p>&copy; {new Date().getFullYear()} <strong>Parthivi Power Solution</strong>. All Rights Reserved.</p>
       </div>
