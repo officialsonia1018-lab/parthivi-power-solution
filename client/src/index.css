@@ -29,7 +29,9 @@ body {
   color: var(--white);
   overflow-x: hidden;
 }
-
+p {
+  text-align: justify;
+}
 
 section { 
   padding: 90px 5vw; 
