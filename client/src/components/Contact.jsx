@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import '../components/componetscss/contact.css';
 
-import { FaUser, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt,  FaBuilding, FaPaperPlane } from 'react-icons/fa'; 
+import { FaUser, FaPhoneAlt, FaEnvelope, FaMapMarkerAlt,  FaBuilding, FaPaperPlane, BsClockHistory } from 'react-icons/fa'; 
 
 function Contact() {
   
@@ -98,7 +98,7 @@ function Contact() {
     </div>
     <div className="contact-block-value">
       Parthivi Power Solution<br />
-      Behind SBI Bank, Buria Chowk, Jadadhri,Yamunanagar (HR), India
+      Behind SBI Bank, Buria Chowk, Jadadhri,<br>Yamunanagar (HR), India</br>
     </div>
   </div>
 
@@ -107,7 +107,7 @@ function Contact() {
       Working Hours
     </div>
     <div className="contact-block-value">
-      Monday - Saturday<br />
+     <BsClockHistory className="contact-icon-small" /> Monday - Saturday<br />
       9:00 AM – 6:00 PM
     </div>
   </div>
