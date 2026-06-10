@@ -25,7 +25,7 @@ exports.createEnquiry = async (
         message: "All fields required",
       });
     }
-
+console.log("Before save");
     const enquiry =
       await Enquiry.create({
         name,
@@ -34,7 +34,7 @@ exports.createEnquiry = async (
         message,
         email,
       });
-
+console.log("After save");
     await transporter.sendMail({
       from: process.env.EMAIL_USER,
 
@@ -54,7 +54,7 @@ exports.createEnquiry = async (
         <p><strong>Message:</strong> ${message}</p>
       `,
     });
-
+console.log("After first email");
      await transporter.sendMail({
       from: process.env.EMAIL_USER,
       to: email,
@@ -67,6 +67,7 @@ exports.createEnquiry = async (
       `
     });
 
+console.log("After second email");
     res.status(201).json({
       success: true,
       message:
