@@ -60,7 +60,16 @@ nav {
 .nav-cta:hover .cta-phone-icon {
   transform: rotate(15deg) scale(1.1);
 }
+.mobile-menu-btn{
+  display:none;
+  color:white;
+  font-size:1.7rem;
+  cursor:pointer;
+}
 
+.mobile-call-btn{
+  display:none;
+}
 
 @keyframes pulse {
   0% { transform: scale(1); }
