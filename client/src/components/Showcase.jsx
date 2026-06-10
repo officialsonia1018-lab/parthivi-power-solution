@@ -11,10 +11,10 @@ import img5 from '../assets/Chint.png';
 function Showcase() {
   const items = [
     {imgSrc: img1 , label: "Industrial Generator Installation", sub: "Sudhir & Honda GENSET · Yamunanagar" },
-    { imgSrc: img3 , label: "Servo Stabilizer Setup", sub: "Hospital · 100 KVA" },
-    { imgSrc: img2 , label: "Transformer Commissioning", sub: "Paper Mill · 250 KVA" },
-    { imgSrc: img4, label: "Electric Panel Build", sub: "MCC Panel · Industrial Plant" },
-    { imgSrc: img5 , label: "Industrial Switchgears", sub: "Hotel Chain · Annual Contract" }
+    { imgSrc: img3 , label: "Servo Stabilizer Setup", sub: "OIL/AIR COOLED" },
+    { imgSrc: img2 , label: "Transformer Commissioning", sub: "ISOLATION & AUTO" },
+    { imgSrc: img4, label: "Electric Panel Build", sub: "MCC/VFD/SARTER Panels" },
+    { imgSrc: img5 , label: "Industrial Switchgears", sub: "Power Distribution" }
   ];
 
   return (
