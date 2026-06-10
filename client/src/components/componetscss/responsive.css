@@ -10,36 +10,87 @@
 
 /* LARGE TABLETS & LANDSCAPE PHONES (Max-width: 900px) */
 @media (max-width: 900px) {
-  section { 
-    padding: 70px 5vw; 
+
+  nav{
+    padding:0 20px;
   }
-  
-  
-  .nav-links { 
-    display: none; 
+
+  .mobile-menu-btn{
+    display:block;
+    z-index:1001;
   }
-  
-  
-  .why-grid { 
-    grid-template-columns: 1fr; 
-    gap: 36px; 
+
+  .nav-cta{
+    display:none;
   }
-  
- 
-  .showcase-grid { 
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    grid-template-rows: auto; 
+
+  .nav-links{
+    position:absolute;
+    top:68px;
+    left:0;
+    width:100%;
+    background:rgba(10,14,23,0.98);
+    backdrop-filter:blur(10px);
+    flex-direction:column;
+    gap:0;
+    display:none;
+    padding:0;
+    border-top:1px solid var(--border);
   }
-  
-  .showcase-cell {
-    min-height: 220px;
+
+  .nav-links.active{
+    display:flex;
   }
-  
-  .showcase-cell:first-child { 
-    grid-row: auto; 
+
+  .nav-links li{
+    width:100%;
+    text-align:center;
+  }
+
+  .nav-links a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:18px;
+    width:100%;
+  }
+
+  .mobile-call-btn{
+    display:block;
+    padding:15px;
+  }
+
+  .mobile-call-btn a{
+    background:linear-gradient(
+      90deg,
+      var(--gold),
+      var(--red)
+    );
+
+    color:#000;
+    font-weight:700;
+    border-radius:6px;
+    margin:10px;
+  }
+
+  .why-grid {
+    grid-template-columns:1fr;
+    gap:36px;
+  }
+
+  .showcase-grid {
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    grid-template-rows:auto;
+  }
+
+  .showcase-cell{
+    min-height:220px;
+  }
+
+  .showcase-cell:first-child{
+    grid-row:auto;
   }
 }
-
 /*  SMALL TABLETS & PORTRAIT PHONES (Max-width: 850px) */
 @media (max-width: 850px) {
   
@@ -174,3 +225,4 @@
     min-width: 100%; 
   }
 }
+
