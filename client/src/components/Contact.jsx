@@ -1,6 +1,13 @@
 import React, { useState } from 'react';
 
 import '../components/componetscss/contact.css';
+import {
+  FaUser,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaBuilding
+} from "react-icons/fa";
 
 
 import { FaUser, FaPhoneAlt, FaPaperPlane } from 'react-icons/fa'; 
@@ -50,21 +57,70 @@ function Contact() {
       <div className="contact-wrap">
         {/* Left Side: Professional Contact Details */}
         <div className="contact-info">
-          <div className="contact-block">
-            <div className="contact-block-label">
-              <FaUser className="contact-icon-small" /> Owner
-            </div>
-            <div className="contact-block-value">Anshul Kamboj</div>
-          </div>
-          <div className="contact-block">
-            <div className="contact-block-label">
-              <FaPhoneAlt className="contact-icon-small" /> Phone / WhatsApp
-            </div>
-            <div className="contact-block-value">
-              <a href="tel:8222015806">+91 82220-15806</a>
-            </div>
-          </div>
-        </div>
+
+  <div className="contact-block">
+    <div className="contact-block-label">
+      <FaUser className="contact-icon-small" /> Managing Director
+    </div>
+    <div className="contact-block-value">
+      Anshul Kamboj
+    </div>
+  </div>
+
+  <div className="contact-block">
+    <div className="contact-block-label">
+      <FaPhoneAlt className="contact-icon-small" /> Contact Number
+    </div>
+    <div className="contact-block-value">
+      <a href="tel:8222015806">
+        +91 82220 15806
+      </a>
+    </div>
+  </div>
+
+  <div className="contact-block">
+    <div className="contact-block-label">
+      <FaPhoneAlt className="contact-icon-small" /> Office Number
+    </div>
+    <div className="contact-block-value">
+      <a href="tel:9996324590">
+        +91 9996324590
+      </a>
+    </div>
+  </div>
+
+  <div className="contact-block">
+    <div className="contact-block-label">
+      <FaEnvelope className="contact-icon-small" />
+      Email
+    </div>
+    <div className="contact-block-value">
+      parthivipowersolution@gmail.com
+    </div>
+  </div>
+
+  <div className="contact-block">
+    <div className="contact-block-label">
+       <FaMapMarkerAlt className="contact-icon-small" />
+      Office Address
+    </div>
+    <div className="contact-block-value">
+      Parthivi Power Solution<br />
+      Behind SBI Bank, Buria Chowk, Jadadhri,Yamunanagar (HR), India
+    </div>
+  </div>
+
+  <div className="contact-block">
+    <div className="contact-block-label">
+      Working Hours
+    </div>
+    <div className="contact-block-value">
+      Monday - Saturday<br />
+      9:00 AM – 6:00 PM
+    </div>
+  </div>
+
+</div>
 
         {/* Right Side: Dynamic Form */}
         <form className="contact-form" onSubmit={handleSubmit}>
