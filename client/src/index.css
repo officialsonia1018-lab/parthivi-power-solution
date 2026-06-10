@@ -87,5 +87,7 @@ section {
   max-width: 560px; 
   line-height: 1.75; 
 }
-
+p.section-desc{
+   text-align: center !important;
+}
 
