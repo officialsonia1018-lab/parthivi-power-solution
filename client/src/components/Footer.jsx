@@ -32,7 +32,7 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Column 3: NEW! Social Links */}
+        {/* Column 3: Social Links */}
         <div className="footer-col">
           <h4>Connect With Us</h4>
           <ul>
@@ -54,11 +54,11 @@ function Footer() {
           </ul>
         </div>
 
-        {/* Column 4: NEW! Contact Information */}
+        {/* Column 4: Contact Information */}
         <div className="footer-col contact-info-col">
           <h4>Contact Info</h4>
           <ul>
-            <li><FaMapMarkerAlt className="icon-style contact-icon" /> Behind SBI Bank, Buria Chowk, Jagadhri, Yamuna Nagar (HR)</li>
+            <li><FaMapMarkerAlt className="icon-style contact-icon" /> <p>Behind SBI Bank, Buria Chowk, Jagadhri, Yamuna Nagar (HR)</p></li>
             <li>
               <FaPhoneAlt className="icon-style contact-icon" /> <a href="tel:8222015806">+91 82220-15806</a>
             </li>
