@@ -32,6 +32,8 @@ body {
 p {
   text-align: justify !important;
   text-justify: inter-word;
+  color: var(--gray);
+   font-size: 16px;
 }
 
 section { 
@@ -90,8 +92,6 @@ section {
 p.section-desc{
    text-align: center !important;
 }
-p {
-  color: var(--gray);
-}
+
 
 
