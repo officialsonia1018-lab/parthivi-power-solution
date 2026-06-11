@@ -90,4 +90,8 @@ section {
 p.section-desc{
    text-align: center !important;
 }
+p {
+  color: var(--gray);
+}
+
 
