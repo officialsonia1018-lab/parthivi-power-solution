@@ -194,7 +194,7 @@ function Contact() {
   />
 </div>
           
-          {/* Button ke andar modern lightning icon ya paper plane icon wrapper */}
+          {/* Button paper plane icon */}
           <button type="submit" className="form-submit">
             <FaPaperPlane className="submit-btn-icon" /> Send Enquiry
           </button>
