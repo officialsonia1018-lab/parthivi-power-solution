@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../components/componetscss/hero.css';
 
-// 🔥 Sirf important aur elegant icons import kiye
+
 import { 
   FaArrowRight, 
   FaFileInvoiceDollar, 
