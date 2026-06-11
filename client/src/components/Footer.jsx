@@ -7,7 +7,8 @@ import {
   FaFacebookF, 
   FaPhoneAlt, 
   FaEnvelope, 
-  FaMapMarkerAlt 
+  FaMapMarkerAlt,
+  FaStore
 } from 'react-icons/fa';
 
 function Footer() {
@@ -49,6 +50,11 @@ function Footer() {
             <li>
               <a href="https://www.facebook.com/share/1Kf5CkP3NA/?mibextid=wwXIfr" target="_blank" rel="noreferrer">
                <FaFacebookF className="icon-style fb-icon" /> Facebook
+              </a>
+            </li>
+             <li>
+              <a href="https://www.indiamart.com/parthivi-power-solution/" target="_blank" rel="noreferrer">
+               <FaStore className="icon-style fb-icon" /> indiamart
               </a>
             </li>
           </ul>
