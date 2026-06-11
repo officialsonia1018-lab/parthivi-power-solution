@@ -64,7 +64,7 @@ function Footer() {
         <div className="footer-col contact-info-col">
           <h4>Contact Info</h4>
           <ul>
-            <li><FaMapMarkerAlt className="icon-style contact-icon" /> <p>Behind SBI Bank, Buria Chowk, Jagadhri, Yamuna Nagar (HR)</p></li>
+            <li><FaMapMarkerAlt className="icon-style contact-icon" />Buria Chowk, Jagadhri, Yamuna Nagar (HR)</li>
             <li>
               <FaPhoneAlt className="icon-style contact-icon" /> <a href="tel:8222015806">+91 82220-15806</a>
             </li>
