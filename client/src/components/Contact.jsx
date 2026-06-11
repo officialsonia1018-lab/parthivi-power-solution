@@ -55,7 +55,7 @@ function Contact() {
       <FaUser className="contact-icon-small" /> Managing Director
     </div>
     <div className="contact-block-value">
-      Anshul Kamboj
+     <p> Anshul Kamboj</p>
     </div>
   </div>
 
@@ -65,7 +65,7 @@ function Contact() {
     </div>
     <div className="contact-block-value">
       <a href="tel:8222015806">
-        +91 82220 15806
+       <p> +91 82220 15806</p>
       </a>
     </div>
   </div>
@@ -76,7 +76,7 @@ function Contact() {
     </div>
     <div className="contact-block-value">
       <a href="tel:9996324590">
-        +91 9996324590
+       <p> +91 9996324590 </p>
       </a>
     </div>
   </div>
@@ -87,7 +87,7 @@ function Contact() {
       Email
     </div>
     <div className="contact-block-value">
-      parthivipowersolution@gmail.com
+     <p> parthivipowersolution@gmail.com </p>
     </div>
   </div>
 
@@ -97,8 +97,8 @@ function Contact() {
       Office Address
     </div>
     <div className="contact-block-value">
-      Parthivi Power Solution<br />
-      Behind SBI Bank, Buria Chowk, Jadadhri,<br/>Yamunanagar (HR), India
+     <p> Parthivi Power Solution<br />
+      Behind SBI Bank, Buria Chowk, Jadadhri,<br/>Yamunanagar (HR), India</p>
     </div>
   </div>
 <div className="contact-block">
@@ -108,8 +108,8 @@ function Contact() {
   </div>
 
   <div className="contact-block-value">
-    Monday - Saturday <br />
-    9:00 AM – 6:00 PM
+   <p> Monday - Saturday <br />
+    9:00 AM – 6:00 PM</p>
   </div>
 </div>
 
