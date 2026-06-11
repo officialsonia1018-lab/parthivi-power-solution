@@ -214,6 +214,9 @@
     height: 52px; 
     font-size: 20px; 
   }
+  .showcase-grid {
+  grid-template-columns:1fr;
+}
 }
 
 /*  VERY SMALL PHONES (Max-width: 360px) */
