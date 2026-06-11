@@ -30,7 +30,7 @@ function Products() {
         {productData.map((product, index) => (
           <div className="product-card" key={index}>
             <div className="product-icon-wrap">
-              {/* Check karega ki agar image hai toh <img> tag chalaye, nahi toh emoji icon */}
+              {/* image and icon */}
               {product.isImage ? (
                 <img src={product.imgSrc} alt={product.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               ) : (
